@@ -1,0 +1,10 @@
+lst=[1,24,53,12,4,53,21,4,31,3]
+i=0
+j=len(lst)-1
+while(i<j):
+    temp=lst[i]
+    lst[i]=lst[j]
+    lst[j]=temp
+    i+=1
+    j-=1
+print(lst)
