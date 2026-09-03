@@ -4,8 +4,8 @@ from pathlib import Path
 
 # ===== SETTINGS =====
 VIDEOS_FOLDER = "c:/Urbanity-data/VideosLatest"     # folder containing videos
-OUTPUT_FOLDER = "c:/Urbanity-data/ankush13/images"     # all extracted frames go here
-FRAME_INTERVAL_SEC =  0.5    # save 1 frame every 1 second
+OUTPUT_FOLDER = "c:/Urbanity-data/ankush14/images"     # all extracted frames go here
+FRAME_INTERVAL_SEC =  2   # save 1 frame every 1 second
 
 # Supported video formats
 VIDEO_EXTENSIONS = (".mp4", ".avi", ".mov", ".mkv", ".mpeg")
